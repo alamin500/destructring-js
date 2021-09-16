@@ -20,10 +20,21 @@ console.log(a); // 1
 console.log(b); // 2
 
 // example-4
-const foo = ['one', 'two'];
+// const foo = ['one', 'two'];
 
-const [red, yellow, green, blue] = foo;
-console.log(red); // "one"
-console.log(yellow); // "two"
-console.log(green); // undefined
-console.log(blue);  //undefined
+// const [red, yellow, green, blue] = foo;
+// console.log(red); // "one"
+// console.log(yellow); // "two"
+// console.log(green); // undefined
+// console.log(blue);  //undefined
+
+// example-5
+const user = {
+    id: 42,
+    isVerified: true
+};
+
+const {id, isVerified} = user;
+
+console.log(id); // 42
+console.log(isVerified); // true
