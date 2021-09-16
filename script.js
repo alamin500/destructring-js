@@ -38,3 +38,16 @@ const {id, isVerified} = user;
 
 console.log(id); // 42
 console.log(isVerified); // true
+
+// example-6
+const o = {p: 42, q: true};
+const {p: food, q: bar} = o;
+
+console.log(food); // 42
+console.log(bar); // true
+
+// example -7
+const {a: aa = 10, b: bb = 5} = {a: 3};
+
+console.log(aa); // 3
+console.log(bb); // 5
